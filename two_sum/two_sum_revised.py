@@ -115,14 +115,20 @@ print(answer)
 
 
 """
-    The previous solution was quite overengineered and complex, but considering it was your first attempt at a data structure leetcode question with 0 knowledge, i'd say it was good. The previous solution was gearing towards O[n] to 0[n2] compelxity, as it kept re-arranging the items in the array and continued iterating through all of them, again till it met the target.
+    The previous solution was quite overengineered and complex, but considering it was your 
+    first attempt at a data structure leetcode question with 0 knowledge, i'd say it was good. 
+    The previous solution was gearing towards O[n] to 0[n2] compelxity, as it kept re-arranging the items in the array and 
+    continued iterating through all of them, again till it met the target.
     Kind of like following n! = n(n-1)!
     
-    However, this solution uses a dictionary (hash map) where it stores the values and index of the array in key value pairs, kind of like how you would do in javascript. 
+    However, this solution uses a dictionary (hash map) where it stores the values and index of the array in key value pairs,
+    kind of like how you would do in javascript. 
 
-    It iterates through the dictionary once, checking if the target - the_current_value exists in the dictionary, if it doesnt exist, it means that the twoSum is None.
+    It iterates through the dictionary once, checking if the target - the_current_value exists in the dictionary, if it doesnt exist, 
+    it means that the twoSum is None.
     
-    This way, you don't have to keep track of multiple loops and various mutations within the code. It was quite a simple approach, but somehow a complex soution, but it still worked and the thought process was outstanding too.
+    This way, you don't have to keep track of multiple loops and various mutations within the code. It was quite a simple approach, 
+    but somehow a complex soution, but it still worked and the thought process was outstanding too.
 """
 def two_sum(array: list, target: int):
     
