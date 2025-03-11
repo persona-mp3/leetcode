@@ -1,0 +1,1 @@
+Trying leetcode with no knowledge of data structures and algorithm. It contains a first version which maps out my thought process trying to solve the solution, so think of it as a whiteboard session. The revised versions are only done after I had made my approach work, and then I outsource help from people or from online resources.
